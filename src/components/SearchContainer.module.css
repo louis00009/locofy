@@ -1,0 +1,300 @@
+.bannerBackground,
+.bannerGradient {
+  position: absolute;
+  width: calc(100% + 0.01px);
+  right: -0.01px;
+  left: 0;
+}
+.bannerGradient {
+  top: 0;
+  background: linear-gradient(78.78deg, #114f8b 5.2%, #2a9ad7);
+  height: 478.36px;
+}
+.bannerBackground {
+  top: 0.3px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 478.43px;
+  object-fit: cover;
+}
+.findTheBest,
+.letsExplore {
+  align-self: stretch;
+  position: relative;
+  line-height: 50.09px;
+}
+.findTheBest {
+  font-size: 17.94px;
+  line-height: 23.92px;
+  font-family: var(--components-button-large);
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3.74px;
+}
+.departureField,
+.title {
+  align-self: stretch;
+}
+.inputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 3.7376978397369385px;
+  align-items: center;
+  justify-content: center;
+}
+.arrival,
+.labelContainer {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.arrival {
+  position: relative;
+  letter-spacing: 0.11px;
+  line-height: 8.97px;
+  width: 26.16px;
+  height: 8.97px;
+}
+.labelContainer {
+  background-color: var(--primary-contrast);
+  height: 1.5px;
+  flex-direction: row;
+  padding: 0 2.9901583194732666px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.avatar,
+.op {
+  align-items: center;
+  justify-content: center;
+}
+.op {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 166%;
+  display: flex;
+}
+.avatar {
+  border-radius: 47.84px;
+  background-color: var(--color-silver);
+  width: 17.94px;
+  height: 17.94px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+}
+.chip1 {
+  position: relative;
+  letter-spacing: 0.12px;
+  line-height: 13.46px;
+}
+.typography {
+  display: flex;
+  flex-direction: column;
+  padding: 2.2426187992095947px 4.4852375984191895px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 9.72px;
+  color: var(--color-gray-500);
+}
+.cancelIcon {
+  position: relative;
+  width: 17.94px;
+  height: 17.94px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.container {
+  border-radius: 11.96px;
+  background-color: var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  padding: 2.9901583194732666px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.chip,
+.muiautocompletetag {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chip {
+  display: flex;
+  flex-direction: column;
+}
+.muiautocompletetag {
+  display: none;
+  flex-direction: row;
+  gap: 5.98px;
+}
+.losAngelesLa {
+  flex: 1;
+  position: relative;
+  font-size: 11.96px;
+  letter-spacing: 0.11px;
+  line-height: 17.94px;
+  color: var(--color-gray-500);
+  text-align: left;
+}
+.active,
+.input {
+  align-self: stretch;
+}
+.active {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 11.213094711303711px 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.98px;
+  text-align: center;
+  color: var(--color-dimgray-200);
+}
+.input {
+  border-radius: 2.99px;
+  border: 0.7px solid var(--color-gray-400);
+  box-sizing: border-box;
+  height: 41.86px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 8.970474243164062px;
+}
+.arrivalField,
+.input,
+.inputsRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrivalField {
+  align-self: stretch;
+  height: 41.86px;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.inputsRow {
+  flex: 1;
+  flex-direction: row;
+}
+.button {
+  position: relative;
+  letter-spacing: 0.34px;
+  line-height: 19.44px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 109.87px;
+}
+.buttonGroup,
+.searchFlightsButton,
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchFlightsButton {
+  border-radius: 2.99px;
+  width: 122.6px;
+  height: 41.86px;
+  flex-shrink: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.searchFlightsButton,
+.searchFlightsButton:hover {
+  background-color: var(--color-orange-200);
+}
+.buttonGroup,
+.searchForm {
+  padding: 3.7376978397369385px;
+  text-align: center;
+  font-size: 11.21px;
+  color: var(--primary-contrast);
+}
+.searchForm {
+  align-self: stretch;
+  border-radius: 7.48px;
+  background-color: var(--primary-contrast);
+  flex-direction: row;
+  padding: 14.950791358947754px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 8.97px;
+  color: var(--color-gray-300);
+  font-family: var(--components-button-large);
+}
+.searchContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 478.43px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 104.6555404663086px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 32.14px;
+}
+.searchSection {
+  align-self: stretch;
+  position: relative;
+  height: 478.43px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-26xl-6);
+  color: var(--primary-contrast);
+  font-family: var(--font-baloo-bhai);
+}
+@media screen and (max-width: 1100px) {
+  .inputsRow {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .searchFlightsButton {
+    margin-right: auto;
+  }
+  .buttonGroup {
+    width: 100%;
+    text-align: left;
+  }
+  .searchForm {
+    flex-direction: column;
+  }
+  .searchContainer {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .letsExplore {
+    font-size: var(--font-size-23xl);
+    line-height: 48px;
+  }
+  .inputGroup {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .inputsRow {
+    flex-direction: column;
+  }
+  .searchFlightsButton {
+    width: 100% !important;
+  }
+}
